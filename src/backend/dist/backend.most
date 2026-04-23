@@ -1,0 +1,9 @@
+// Version: 1.0.0
+type Timestamp__301639476 = Int;
+type Timestamp__93733298 = Timestamp__301639476;
+actor {
+  stable var coins : {var v : Nat};
+  stable var initialized : {var v : Bool};
+  stable var lastSaveTime : {var v : Timestamp__93733298};
+  stable var upgrades : {var v : [Nat]}
+};

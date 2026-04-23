@@ -1,0 +1,21 @@
+{
+  "overview": "A full-featured browser clicker game where you click a giant coin to earn currency, buy upgrades, and watch your passive income grow — all saved automatically so your progress is never lost.",
+  "features": [
+    "Clickable coin with satisfying animations and floating +N text",
+    "Multiple purchasable upgrades: click boosters, auto-clickers, multipliers",
+    "Passive income that ticks every second while the page is open",
+    "Persistent save — your coins and upgrades restore on reload",
+    "Light/dark mode toggle",
+    "Mobile-friendly responsive layout"
+  ],
+  "category": "game",
+  "tags": [
+    "clicker",
+    "game",
+    "idle",
+    "coins",
+    "upgrades",
+    "casual"
+  ],
+  "last_updated": "2026-04-23T15:27:00.580Z"
+}

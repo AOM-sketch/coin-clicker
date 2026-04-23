@@ -1,0 +1,21 @@
+type Timestamp = int;
+type GameState = 
+ record {
+   coins: nat;
+   lastSaveTime: Timestamp;
+   upgrades: vec nat;
+ };
+type BuyUpgradeResult = 
+ variant {
+   err: text;
+   ok: record {
+         coins: nat;
+         upgrades: vec nat;
+       };
+ };
+service : {
+  buyUpgrade: (upgradeId: nat) -> (BuyUpgradeResult);
+  clickCoin: () -> (nat);
+  getState: () -> (GameState) query;
+  saveState: (newCoins: nat, newUpgrades: vec nat) -> ();
+}
